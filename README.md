@@ -13,4 +13,3 @@ A modern marketing website built with Flask framework.
 - Flask
 - Python
 - HTML/CSS
-- JavaScript
