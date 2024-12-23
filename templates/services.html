@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Website</title>    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">AgencyPro</a>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+           
+        </div>
+    </header>
+    <main>
+        <section id="services ">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service ">
+                        <h3>SEO Optimization</h3>
+                        <p>Boost your website traffic with our expert SEO services.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Social Media Marketing</h3>
+                        <p>Expand your reach on platforms like Facebook, Instagram, and LinkedIn.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Content Creation</h3>
+                        <p>Engaging content tailored to your audience and business goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AgencyPro. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
